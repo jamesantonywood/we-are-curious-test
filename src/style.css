@@ -1,8 +1,73 @@
 html {
   color-scheme: light dark;
-  font-family: system-ui;
+  background-color: #1D1D1B;
+  color: #fff;
+  font-family: "Azo Sans";
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+ 
+  /* padding: 32px; */
+  /* height: 6000px; */
+}
+
+.hero {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 32px;
+}
+
+.project-container {
+  width: 100%;
   height: 100%;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  /* border: 1px solid red; */
+  img {
+    border-radius: 20px;
+    position:absolute;
+    opacity: 0;
+    transform-origin: center center;
+    scale: 0;
+
+    left: 50%;
+    top: 50%;
+  }
+
+}
+
+section {
+  margin-bottom: 600px;
+}
+
+h1 {
+  font-size: 116px;
+  font-weight: 600;
+  text-align: left;
+  margin: 0;
+  letter-spacing: -0.03em;
+  /* overflow: hidden; */
+  width: max-content;
+  transition: width 0.3s;
+  line-height: 1.5;
+  span {
+    will-change: opacity;
+    display: inline-block;
+    position: relative;
+    .char {
+      transform-origin: center;
+    }
+  }
 }
