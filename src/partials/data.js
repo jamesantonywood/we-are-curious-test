@@ -1,0 +1,62 @@
+export default [
+    {
+       "title": "Project 1",
+       "client": "Client 1",
+       "img": "https://picsum.photos/300/300?random=1"
+    },
+    {
+       "title": "Project 2",
+       "client": "Client 2",
+       "img": "https://picsum.photos/300/300?random=2"
+    },
+    {
+       "title": "Project 3",
+       "client": "Client 3",
+       "img": "https://picsum.photos/300/300?random=3"
+    },
+    {
+       "title": "Project 4",
+       "client": "Client 4",
+       "img": "https://picsum.photos/300/300?random=4"
+    },
+    {
+       "title": "Project 5",
+       "client": "Client 5",
+       "img": "https://picsum.photos/300/300?random=5"
+    },
+    {
+       "title": "Project 6",
+       "client": "Client 6",
+       "img": "https://picsum.photos/300/300?random=6"
+    },
+    {
+       "title": "Project 7",
+       "client": "Client 7",
+       "img": "https://picsum.photos/300/300?random=7"
+    },
+    {
+       "title": "Project 8",
+       "client": "Client 8",
+       "img": "https://picsum.photos/300/300?random=8"
+    },
+    {
+       "title": "Project 9",
+       "client": "Client 9",
+       "img": "https://picsum.photos/300/300?random=9"
+    },
+    {
+       "title": "Project 10",
+       "client": "Client 10",
+       "img": "https://picsum.photos/300/300?random=10"
+    },
+    {
+       "title": "Project 11",
+       "client": "Client 11",
+       "img": "https://picsum.photos/300/300?random=11"
+    },
+    {
+       "title": "Project 12",
+       "client": "Client 12",
+       "img": "https://picsum.photos/300/300?random=12"
+    }
+ ]

@@ -2,16 +2,18 @@
   "name": "parcel-vanilla-starter",
   "private": true,
   "version": "0.0.0",
-  "source": "src/index.html",
+  "source": "src/index.pug",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
   },
   "dependencies": {
+    "colorthief": "^2.6.0",
     "gsap": "^3.12.7",
     "splitting": "^1.1.0"
   },
   "devDependencies": {
+    "@parcel/transformer-pug": "^2.14.4",
     "parcel": "^2.14.0"
   }
 }

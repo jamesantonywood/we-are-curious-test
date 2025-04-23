@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color-scheme: light dark;
+  background-color: #1D1D1B;
+  color: #fff;
+  font-family: "Azo Sans";
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+ 
+  /* padding: 32px; */
+  /* height: 6000px; */
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1rem;
+  svg {
+    path {
+      fill: #fff;
+    }
+  }
+
+
+
+}
+
+.project-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  img {
+    border-radius: 20px;
+    position:absolute;
+    opacity: 0;
+    transform-origin: center center;
+    scale: 0;
+    left: 50%;
+    top: 50%;
+  }
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 32px;
+  h1 {
+    font-size: 116px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+    letter-spacing: -0.03em;
+    width: max-content;
+    transition: width 0.3s;
+    line-height: 1;
+    span {
+      display: inline-block;
+      position: relative;
+      .char {
+        opacity: 0;
+        will-change: opacity;
+        transform-origin: center;
+      }
+    }
+  }
+  
+}
+
+section {
+  padding: 1rem;
+}
+
+
+
+.projects-container {
+  /* Photo by mnm.all on Unsplash */
+  background-size: cover;
+
+  /* Grid styles */
+  display: grid;
+  grid-gap: 1rem;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  .project {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
